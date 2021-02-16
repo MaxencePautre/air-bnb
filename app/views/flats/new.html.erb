@@ -1,0 +1,9 @@
+<div class="mx-3 mt-3">
+  <%= simple_form_for(@flat) do |f|%>
+    <%= f.input :name %>
+    <%= f.input :address%>
+    <%= f.input :price_per_night %>
+    <%= f.input :number_of_guests %>
+    <%= f.submit "Ajouter l'appartement", class:"btn btn-primary" %>
+  <% end %>
+</div>
